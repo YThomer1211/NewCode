@@ -1,0 +1,3 @@
+D:/NewCode/cmake-build-debug/CMakeFiles/NewCode.dir
+D:/NewCode/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/NewCode/cmake-build-debug/CMakeFiles/rebuild_cache.dir
