@@ -49,11 +49,11 @@ cmake_ninja_workdir = D$:/NewCode/cmake-build-debug/
 
 build cmake_object_order_depends_target_NewCode: phony || CMakeFiles/NewCode.dir
 
-build CMakeFiles/NewCode.dir/main.cpp.obj: CXX_COMPILER__NewCode_Debug D$:/NewCode/main.cpp || cmake_object_order_depends_target_NewCode
-  DEP_FILE = CMakeFiles\NewCode.dir\main.cpp.obj.d
+build CMakeFiles/NewCode.dir/Others/main.cpp.obj: CXX_COMPILER__NewCode_Debug D$:/NewCode/Others/main.cpp || cmake_object_order_depends_target_NewCode
+  DEP_FILE = CMakeFiles\NewCode.dir\Others\main.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\NewCode.dir
-  OBJECT_FILE_DIR = CMakeFiles\NewCode.dir
+  OBJECT_FILE_DIR = CMakeFiles\NewCode.dir\Others
 
 
 # =============================================================================
@@ -63,7 +63,7 @@ build CMakeFiles/NewCode.dir/main.cpp.obj: CXX_COMPILER__NewCode_Debug D$:/NewCo
 #############################################
 # Link the executable NewCode.exe
 
-build NewCode.exe: CXX_EXECUTABLE_LINKER__NewCode_Debug CMakeFiles/NewCode.dir/main.cpp.obj
+build NewCode.exe: CXX_EXECUTABLE_LINKER__NewCode_Debug CMakeFiles/NewCode.dir/Others/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\NewCode.dir
@@ -82,11 +82,11 @@ build NewCode.exe: CXX_EXECUTABLE_LINKER__NewCode_Debug CMakeFiles/NewCode.dir/m
 
 build cmake_object_order_depends_target_testalone: phony || CMakeFiles/testalone.dir
 
-build CMakeFiles/testalone.dir/testalone.cpp.obj: CXX_COMPILER__testalone_Debug D$:/NewCode/testalone.cpp || cmake_object_order_depends_target_testalone
-  DEP_FILE = CMakeFiles\testalone.dir\testalone.cpp.obj.d
+build CMakeFiles/testalone.dir/Others/testalone.cpp.obj: CXX_COMPILER__testalone_Debug D$:/NewCode/Others/testalone.cpp || cmake_object_order_depends_target_testalone
+  DEP_FILE = CMakeFiles\testalone.dir\Others\testalone.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\testalone.dir
-  OBJECT_FILE_DIR = CMakeFiles\testalone.dir
+  OBJECT_FILE_DIR = CMakeFiles\testalone.dir\Others
 
 
 # =============================================================================
@@ -96,7 +96,7 @@ build CMakeFiles/testalone.dir/testalone.cpp.obj: CXX_COMPILER__testalone_Debug 
 #############################################
 # Link the executable testalone.exe
 
-build testalone.exe: CXX_EXECUTABLE_LINKER__testalone_Debug CMakeFiles/testalone.dir/testalone.cpp.obj
+build testalone.exe: CXX_EXECUTABLE_LINKER__testalone_Debug CMakeFiles/testalone.dir/Others/testalone.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\testalone.dir
@@ -105,6 +105,237 @@ build testalone.exe: CXX_EXECUTABLE_LINKER__testalone_Debug CMakeFiles/testalone
   TARGET_FILE = testalone.exe
   TARGET_IMPLIB = libtestalone.dll.a
   TARGET_PDB = testalone.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target zhaohangxinyongka_2019cekai2th
+
+
+#############################################
+# Order-only phony target for zhaohangxinyongka_2019cekai2th
+
+build cmake_object_order_depends_target_zhaohangxinyongka_2019cekai2th: phony || CMakeFiles/zhaohangxinyongka_2019cekai2th.dir
+
+build CMakeFiles/zhaohangxinyongka_2019cekai2th.dir/practice_moni/zhaohangxinyongka_2019cekai2th.cpp.obj: CXX_COMPILER__zhaohangxinyongka_2019cekai2th_Debug D$:/NewCode/practice_moni/zhaohangxinyongka_2019cekai2th.cpp || cmake_object_order_depends_target_zhaohangxinyongka_2019cekai2th
+  DEP_FILE = CMakeFiles\zhaohangxinyongka_2019cekai2th.dir\practice_moni\zhaohangxinyongka_2019cekai2th.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\zhaohangxinyongka_2019cekai2th.dir
+  OBJECT_FILE_DIR = CMakeFiles\zhaohangxinyongka_2019cekai2th.dir\practice_moni
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target zhaohangxinyongka_2019cekai2th
+
+
+#############################################
+# Link the executable zhaohangxinyongka_2019cekai2th.exe
+
+build zhaohangxinyongka_2019cekai2th.exe: CXX_EXECUTABLE_LINKER__zhaohangxinyongka_2019cekai2th_Debug CMakeFiles/zhaohangxinyongka_2019cekai2th.dir/practice_moni/zhaohangxinyongka_2019cekai2th.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\zhaohangxinyongka_2019cekai2th.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = zhaohangxinyongka_2019cekai2th.exe
+  TARGET_IMPLIB = libzhaohangxinyongka_2019cekai2th.dll.a
+  TARGET_PDB = zhaohangxinyongka_2019cekai2th.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target NO6biji
+
+
+#############################################
+# Order-only phony target for NO6biji
+
+build cmake_object_order_depends_target_NO6biji: phony || CMakeFiles/NO6biji.dir
+
+build CMakeFiles/NO6biji.dir/practice_moni/xiaohongshu_2020_ceshi1/NO6biji.cpp.obj: CXX_COMPILER__NO6biji_Debug D$:/NewCode/practice_moni/xiaohongshu_2020_ceshi1/NO6biji.cpp || cmake_object_order_depends_target_NO6biji
+  DEP_FILE = CMakeFiles\NO6biji.dir\practice_moni\xiaohongshu_2020_ceshi1\NO6biji.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\NO6biji.dir
+  OBJECT_FILE_DIR = CMakeFiles\NO6biji.dir\practice_moni\xiaohongshu_2020_ceshi1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target NO6biji
+
+
+#############################################
+# Link the executable NO6biji.exe
+
+build NO6biji.exe: CXX_EXECUTABLE_LINKER__NO6biji_Debug CMakeFiles/NO6biji.dir/practice_moni/xiaohongshu_2020_ceshi1/NO6biji.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\NO6biji.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = NO6biji.exe
+  TARGET_IMPLIB = libNO6biji.dll.a
+  TARGET_PDB = NO6biji.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target NO8zhanlipin
+
+
+#############################################
+# Order-only phony target for NO8zhanlipin
+
+build cmake_object_order_depends_target_NO8zhanlipin: phony || CMakeFiles/NO8zhanlipin.dir
+
+build CMakeFiles/NO8zhanlipin.dir/practice_moni/xiaohongshu_2020_ceshi1/NO8zhanlipin.cpp.obj: CXX_COMPILER__NO8zhanlipin_Debug D$:/NewCode/practice_moni/xiaohongshu_2020_ceshi1/NO8zhanlipin.cpp || cmake_object_order_depends_target_NO8zhanlipin
+  DEP_FILE = CMakeFiles\NO8zhanlipin.dir\practice_moni\xiaohongshu_2020_ceshi1\NO8zhanlipin.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\NO8zhanlipin.dir
+  OBJECT_FILE_DIR = CMakeFiles\NO8zhanlipin.dir\practice_moni\xiaohongshu_2020_ceshi1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target NO8zhanlipin
+
+
+#############################################
+# Link the executable NO8zhanlipin.exe
+
+build NO8zhanlipin.exe: CXX_EXECUTABLE_LINKER__NO8zhanlipin_Debug CMakeFiles/NO8zhanlipin.dir/practice_moni/xiaohongshu_2020_ceshi1/NO8zhanlipin.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\NO8zhanlipin.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = NO8zhanlipin.exe
+  TARGET_IMPLIB = libNO8zhanlipin.dll.a
+  TARGET_PDB = NO8zhanlipin.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lianxi_shuliehe
+
+
+#############################################
+# Order-only phony target for lianxi_shuliehe
+
+build cmake_object_order_depends_target_lianxi_shuliehe: phony || CMakeFiles/lianxi_shuliehe.dir
+
+build CMakeFiles/lianxi_shuliehe.dir/bishiheji/xiaohongshu_shixi_0409/lianxi_shuliehe.cpp.obj: CXX_COMPILER__lianxi_shuliehe_Debug D$:/NewCode/bishiheji/xiaohongshu_shixi_0409/lianxi_shuliehe.cpp || cmake_object_order_depends_target_lianxi_shuliehe
+  DEP_FILE = CMakeFiles\lianxi_shuliehe.dir\bishiheji\xiaohongshu_shixi_0409\lianxi_shuliehe.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\lianxi_shuliehe.dir
+  OBJECT_FILE_DIR = CMakeFiles\lianxi_shuliehe.dir\bishiheji\xiaohongshu_shixi_0409
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lianxi_shuliehe
+
+
+#############################################
+# Link the executable lianxi_shuliehe.exe
+
+build lianxi_shuliehe.exe: CXX_EXECUTABLE_LINKER__lianxi_shuliehe_Debug CMakeFiles/lianxi_shuliehe.dir/bishiheji/xiaohongshu_shixi_0409/lianxi_shuliehe.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\lianxi_shuliehe.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = lianxi_shuliehe.exe
+  TARGET_IMPLIB = liblianxi_shuliehe.dll.a
+  TARGET_PDB = lianxi_shuliehe.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target shuangseqiu
+
+
+#############################################
+# Order-only phony target for shuangseqiu
+
+build cmake_object_order_depends_target_shuangseqiu: phony || CMakeFiles/shuangseqiu.dir
+
+build CMakeFiles/shuangseqiu.dir/bishiheji/xiaohongshu_shixi_0409/shuangseqiu.cpp.obj: CXX_COMPILER__shuangseqiu_Debug D$:/NewCode/bishiheji/xiaohongshu_shixi_0409/shuangseqiu.cpp || cmake_object_order_depends_target_shuangseqiu
+  DEP_FILE = CMakeFiles\shuangseqiu.dir\bishiheji\xiaohongshu_shixi_0409\shuangseqiu.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\shuangseqiu.dir
+  OBJECT_FILE_DIR = CMakeFiles\shuangseqiu.dir\bishiheji\xiaohongshu_shixi_0409
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target shuangseqiu
+
+
+#############################################
+# Link the executable shuangseqiu.exe
+
+build shuangseqiu.exe: CXX_EXECUTABLE_LINKER__shuangseqiu_Debug CMakeFiles/shuangseqiu.dir/bishiheji/xiaohongshu_shixi_0409/shuangseqiu.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\shuangseqiu.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = shuangseqiu.exe
+  TARGET_IMPLIB = libshuangseqiu.dll.a
+  TARGET_PDB = shuangseqiu.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 01delstring
+
+
+#############################################
+# Order-only phony target for 01delstring
+
+build cmake_object_order_depends_target_01delstring: phony || CMakeFiles/01delstring.dir
+
+build CMakeFiles/01delstring.dir/bishiheji/zhaohangcard_shixi_0409/01delstring.cpp.obj: CXX_COMPILER__01delstring_Debug D$:/NewCode/bishiheji/zhaohangcard_shixi_0409/01delstring.cpp || cmake_object_order_depends_target_01delstring
+  DEP_FILE = CMakeFiles\01delstring.dir\bishiheji\zhaohangcard_shixi_0409\01delstring.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\01delstring.dir
+  OBJECT_FILE_DIR = CMakeFiles\01delstring.dir\bishiheji\zhaohangcard_shixi_0409
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 01delstring
+
+
+#############################################
+# Link the executable 01delstring.exe
+
+build 01delstring.exe: CXX_EXECUTABLE_LINKER__01delstring_Debug CMakeFiles/01delstring.dir/bishiheji/zhaohangcard_shixi_0409/01delstring.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\01delstring.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 01delstring.exe
+  TARGET_IMPLIB = lib01delstring.dll.a
+  TARGET_PDB = 01delstring.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 02rechengji
+
+
+#############################################
+# Order-only phony target for 02rechengji
+
+build cmake_object_order_depends_target_02rechengji: phony || CMakeFiles/02rechengji.dir
+
+build CMakeFiles/02rechengji.dir/bishiheji/zhaohangcard_shixi_0409/02rechengji.cpp.obj: CXX_COMPILER__02rechengji_Debug D$:/NewCode/bishiheji/zhaohangcard_shixi_0409/02rechengji.cpp || cmake_object_order_depends_target_02rechengji
+  DEP_FILE = CMakeFiles\02rechengji.dir\bishiheji\zhaohangcard_shixi_0409\02rechengji.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\02rechengji.dir
+  OBJECT_FILE_DIR = CMakeFiles\02rechengji.dir\bishiheji\zhaohangcard_shixi_0409
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 02rechengji
+
+
+#############################################
+# Link the executable 02rechengji.exe
+
+build 02rechengji.exe: CXX_EXECUTABLE_LINKER__02rechengji_Debug CMakeFiles/02rechengji.dir/bishiheji/zhaohangcard_shixi_0409/02rechengji.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\02rechengji.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 02rechengji.exe
+  TARGET_IMPLIB = lib02rechengji.dll.a
+  TARGET_PDB = 02rechengji.exe.dbg
 
 
 #############################################
@@ -132,9 +363,23 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build 01delstring: phony 01delstring.exe
+
+build 02rechengji: phony 02rechengji.exe
+
+build NO6biji: phony NO6biji.exe
+
+build NO8zhanlipin: phony NO8zhanlipin.exe
+
 build NewCode: phony NewCode.exe
 
+build lianxi_shuliehe: phony lianxi_shuliehe.exe
+
+build shuangseqiu: phony shuangseqiu.exe
+
 build testalone: phony testalone.exe
+
+build zhaohangxinyongka_2019cekai2th: phony zhaohangxinyongka_2019cekai2th.exe
 
 # =============================================================================
 # Folder targets.
@@ -144,7 +389,7 @@ build testalone: phony testalone.exe
 #############################################
 # Folder: D:/NewCode/cmake-build-debug
 
-build all: phony NewCode.exe testalone.exe
+build all: phony NewCode.exe testalone.exe zhaohangxinyongka_2019cekai2th.exe NO6biji.exe NO8zhanlipin.exe lianxi_shuliehe.exe shuangseqiu.exe 01delstring.exe 02rechengji.exe
 
 # =============================================================================
 # Built-in targets

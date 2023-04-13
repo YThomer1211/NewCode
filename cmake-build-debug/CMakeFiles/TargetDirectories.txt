@@ -1,4 +1,11 @@
 D:/NewCode/cmake-build-debug/CMakeFiles/NewCode.dir
 D:/NewCode/cmake-build-debug/CMakeFiles/testalone.dir
+D:/NewCode/cmake-build-debug/CMakeFiles/zhaohangxinyongka_2019cekai2th.dir
+D:/NewCode/cmake-build-debug/CMakeFiles/NO6biji.dir
+D:/NewCode/cmake-build-debug/CMakeFiles/NO8zhanlipin.dir
+D:/NewCode/cmake-build-debug/CMakeFiles/lianxi_shuliehe.dir
+D:/NewCode/cmake-build-debug/CMakeFiles/shuangseqiu.dir
+D:/NewCode/cmake-build-debug/CMakeFiles/01delstring.dir
+D:/NewCode/cmake-build-debug/CMakeFiles/02rechengji.dir
 D:/NewCode/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/NewCode/cmake-build-debug/CMakeFiles/rebuild_cache.dir
