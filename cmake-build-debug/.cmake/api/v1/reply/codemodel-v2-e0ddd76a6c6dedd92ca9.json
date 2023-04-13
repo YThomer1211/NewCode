@@ -1,0 +1,132 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "NewCode",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "01delstring::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01delstring-Debug-8c0e55d38157f0fc2c3f.json",
+					"name" : "01delstring",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02rechengji::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02rechengji-Debug-51b18be508c0c08b4535.json",
+					"name" : "02rechengji",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NO6biji::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NO6biji-Debug-423e917bf9e8034b0406.json",
+					"name" : "NO6biji",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NO8zhanlipin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NO8zhanlipin-Debug-e37cacadccb02590c76e.json",
+					"name" : "NO8zhanlipin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NewCode::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NewCode-Debug-4c181c1d947dcabf0757.json",
+					"name" : "NewCode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lianxi_shuliehe::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lianxi_shuliehe-Debug-892fab6add7ec01aeeb4.json",
+					"name" : "lianxi_shuliehe",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shuangseqiu::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shuangseqiu-Debug-1fa07da2578353e3ba7b.json",
+					"name" : "shuangseqiu",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "testalone::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-testalone-Debug-c3b744630c3c8bab11a4.json",
+					"name" : "testalone",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zhaohangxinyongka_2019cekai2th::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zhaohangxinyongka_2019cekai2th-Debug-c3f8c38a4f340d8a642d.json",
+					"name" : "zhaohangxinyongka_2019cekai2th",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/NewCode/cmake-build-debug",
+		"source" : "D:/NewCode"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

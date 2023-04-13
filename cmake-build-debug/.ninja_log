@@ -1,0 +1,8 @@
+# ninja log v5
+0	555	7027283130019887	CMakeFiles/NO8zhanlipin.dir/practice_moni/xiaohongshu_2020_ceshi1/NO8zhanlipin.cpp.obj	5b4f094153daa286
+557	851	7027283132936588	NO8zhanlipin.exe	e5b961944ed228be
+1	622	7030831352550458	build.ninja	2c5739beac5470f8
+2	724	7027419416203532	CMakeFiles/02rechengji.dir/bishiheji/zhaohangcard_shixi_0409/02rechengji.cpp.obj	d0f883f994e7defc
+1	510	7030772667391097	CMakeFiles/shuangseqiu.dir/bishiheji/xiaohongshu_shixi_0409/shuangseqiu.cpp.obj	2a7df98bffeddf40
+813	1399	7027419422893022	02rechengji.exe	4390a53cbbf75662
+510	824	7030772670495200	shuangseqiu.exe	e1efedc09882d61d
