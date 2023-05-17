@@ -337,6 +337,72 @@ build 02rechengji.exe: CXX_EXECUTABLE_LINKER__02rechengji_Debug CMakeFiles/02rec
   TARGET_IMPLIB = lib02rechengji.dll.a
   TARGET_PDB = 02rechengji.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target huawei1
+
+
+#############################################
+# Order-only phony target for huawei1
+
+build cmake_object_order_depends_target_huawei1: phony || CMakeFiles/huawei1.dir
+
+build CMakeFiles/huawei1.dir/bishiheji/huawei_0510/huawei1.cpp.obj: CXX_COMPILER__huawei1_Debug D$:/NewCode/bishiheji/huawei_0510/huawei1.cpp || cmake_object_order_depends_target_huawei1
+  DEP_FILE = CMakeFiles\huawei1.dir\bishiheji\huawei_0510\huawei1.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\huawei1.dir
+  OBJECT_FILE_DIR = CMakeFiles\huawei1.dir\bishiheji\huawei_0510
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target huawei1
+
+
+#############################################
+# Link the executable huawei1.exe
+
+build huawei1.exe: CXX_EXECUTABLE_LINKER__huawei1_Debug CMakeFiles/huawei1.dir/bishiheji/huawei_0510/huawei1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\huawei1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = huawei1.exe
+  TARGET_IMPLIB = libhuawei1.dll.a
+  TARGET_PDB = huawei1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target huawei2
+
+
+#############################################
+# Order-only phony target for huawei2
+
+build cmake_object_order_depends_target_huawei2: phony || CMakeFiles/huawei2.dir
+
+build CMakeFiles/huawei2.dir/bishiheji/huawei_0510/huawei2.cpp.obj: CXX_COMPILER__huawei2_Debug D$:/NewCode/bishiheji/huawei_0510/huawei2.cpp || cmake_object_order_depends_target_huawei2
+  DEP_FILE = CMakeFiles\huawei2.dir\bishiheji\huawei_0510\huawei2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\huawei2.dir
+  OBJECT_FILE_DIR = CMakeFiles\huawei2.dir\bishiheji\huawei_0510
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target huawei2
+
+
+#############################################
+# Link the executable huawei2.exe
+
+build huawei2.exe: CXX_EXECUTABLE_LINKER__huawei2_Debug CMakeFiles/huawei2.dir/bishiheji/huawei_0510/huawei2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\huawei2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = huawei2.exe
+  TARGET_IMPLIB = libhuawei2.dll.a
+  TARGET_PDB = huawei2.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -373,6 +439,10 @@ build NO8zhanlipin: phony NO8zhanlipin.exe
 
 build NewCode: phony NewCode.exe
 
+build huawei1: phony huawei1.exe
+
+build huawei2: phony huawei2.exe
+
 build lianxi_shuliehe: phony lianxi_shuliehe.exe
 
 build shuangseqiu: phony shuangseqiu.exe
@@ -389,7 +459,7 @@ build zhaohangxinyongka_2019cekai2th: phony zhaohangxinyongka_2019cekai2th.exe
 #############################################
 # Folder: D:/NewCode/cmake-build-debug
 
-build all: phony NewCode.exe testalone.exe zhaohangxinyongka_2019cekai2th.exe NO6biji.exe NO8zhanlipin.exe lianxi_shuliehe.exe shuangseqiu.exe 01delstring.exe 02rechengji.exe
+build all: phony NewCode.exe testalone.exe zhaohangxinyongka_2019cekai2th.exe NO6biji.exe NO8zhanlipin.exe lianxi_shuliehe.exe shuangseqiu.exe 01delstring.exe 02rechengji.exe huawei1.exe huawei2.exe
 
 # =============================================================================
 # Built-in targets

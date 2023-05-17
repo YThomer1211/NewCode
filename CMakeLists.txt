@@ -13,3 +13,5 @@ add_executable(lianxi_shuliehe bishiheji/xiaohongshu_shixi_0409/lianxi_shuliehe.
 add_executable(shuangseqiu bishiheji/xiaohongshu_shixi_0409/shuangseqiu.cpp)
 add_executable(01delstring bishiheji/zhaohangcard_shixi_0409/01delstring.cpp)
 add_executable(02rechengji bishiheji/zhaohangcard_shixi_0409/02rechengji.cpp)
+add_executable(huawei1 bishiheji/huawei_0510/huawei1.cpp)
+add_executable(huawei2 bishiheji/huawei_0510/huawei2.cpp)
